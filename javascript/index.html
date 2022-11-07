@@ -18,83 +18,335 @@
     
 	</style>
 </head>
-  
-
-<body style="margin: 0; width: 100vw; height: 100vh;
-background-image: url(bruh.jpg);  font-family:
-'Product Sans'" id="game_frame" >
-
- 
-	<div id="Selection"
-		style="display: inline-block; position: absolute; top:50%; left: 50%; transform: translate(-50%, -50%); background-color: rgb(49, 51, 54); padding: 20px; border-radius: 10px; color : white; max-width: 300px; text-align: center;">
-    <div background-color: light-grey;>
-		<h1>Resent Client</h1>
-    </div>
-		<h3 >Select a texture pack:</h3>
-		<select id="Packs">
-			<option>-- Choose one --</option>
-			<option value="plat">Platinum 16x</option>
-			<option value="soup">Soups Kids 16x</option>x</option>
-			<option value="bonsai">Bonsai 16x</option>
-			<option value="camellia">Camellia 16x</option>
-			<option value="Latenci">Latenci 32x</option>
-			<option value="venomv2">Venom 16x</option>
-			<option value="luv">Luvplaste 16x</option>
-			<option value="sabor">Sabor 32x</option>
-			<option value="asda">Asda 16x</option>
-			<option value="novis">Novis 16x</option>
-			<option value="frag">RasplinVanilla</option>
-			<option value="azura">Azura 16x</option>
-			<option value="magma">Magma 16x</option>
-			<option value="leo">Leowook</option>
-			<option value="woody2">Woodyfault 32x</option>
-			<option value="orchid">Orchid 16x</option>
-			<option value="lazy">Lazy 16x</option>
-			<option value="kirby">Kirby 16x</option>
-			<option value="prism">Prism 16x</option>
-			<option value="aether">Aether 16x</option>
-			<option value="dynamic">Dynamic Duo 32x</option>
-			<option value="goofy">Goofy Ahh BDA 16x</option>
-			<option value="woody">Intel 64x</option>
-			<option value="bluepack">Vortexian 8k</option>
-			<option value="ClownPierce32x">Clownpierce </option>
-			<option value="drago">Dragon Fruit </option>
-			<option value="faithful">Faithful </option>
-			<option value="sunset">Sunset Default</option>
-			<option value="miamiprivate">Miami Private</option>
-			<option value="1.17PvP">1.19 PvP</option>
-			<option value="aquari">Aquari (No worky)</option>
-			<option value="bda">BDA</option>
-			<option value="bombies">Bombies 180k</option>
-			<option value="bones">Bare Bones 16x</option>
-			<option value="ClownPierce32x">Clownpierce 32x</option>
-                        <option value="candy">Cotton Candy 16x</option>
-			<option value="defaultnew">Default 1.19</option>
- 	                <option value="defaultold">Default 1.5</option>
-			<option value="dino">Dino 16x</option>
-			<option value="drago">Dragon Fruit 32x</option>
-			<option value="faithful">Faithful 32x</option>
-		        <option value="FruitFul32x">Fruitful 16x</option>
-		        <option value="Lemon">Lemon 16x</option>
-			<option value="lunar">Lunar Client 16x</option>
-			<option value="miamiprivate">Miami Private</option>
-		        <option value="mid">Midnight 16x</option>
-			<option value="modifiednew">Modified 1.19</option>
-			<option value="nebula">Nebula 32x</option>
-			<option value="nicofruit">NicoFruit 16x</option>
-			<option value="resent">Resent 16x</option>
-		        <option value="ricefault">Ricefault 32x</option>
-			<option value="skyline">Skyline 16x</option>
-			<option value="swiss">Swiss 16x</option>
-			<option value="tightfault">Tightfault revamped</option>
-			<option value="tron 16x">Tron 16x</option>
-			<option value="refault fixed">Trycs 600k (ReFault)</option>
-			<option value="walifault">Walifault 16x</option>
-		</select>
-		<br /><br />
-		<input type="button" value="Launch" onclick="Start();" />
-		<h2>Made by hooman#1196/Nitwit. Packs created by Vortexian, Woody, BDA, and EtcherFX. Used precision pack selection as base for pack selection screen.</h2>
-	</div>
+<link href="bruh.css" rel="stylesheet">
+<script>
+function placeholderfunc () {alert("this would normally do something!!!!! (but it doesnt yet)");}
+</script>
+</head>
+<body>
+<div style="padding-bottom: 10px;">
+<div class="title">
+<h1 class="text-center">Choose a Resource Pack</h1>
+</div>
+  </div>
+      <div class="flex-container">
+         <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">1.8 PVP</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">1.19 PvP</h1>
+        </div>
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Aether 16x</h1>
+        </div>
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Aquari</h1>
+        </div>
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Asda 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title fit-container">Asda 16x<br>Short Swords</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Azura 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Bare Bones 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title fit-container">Bare Bones Normal Swords</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">BDA</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Bombies 180k</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Bombies 80k</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Bedlessfault 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Bubblerose 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Bonsai 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Camellia 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Clownpierce</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Clownpierce 32x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Cobalt 32x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Cotton Candy 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Default 1.5</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Default 1.19</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Default FPS</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title fit-container">Default netherite <br>edit</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Dino 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Dragon Fruit</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Dragon Fruit 32x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Dynamic Duo 32x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Fruitful 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Faithful 32x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Faithful 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title fit-container">Goofy Ahh <br>BDA 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Heat 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Intel 64x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Kirby 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Latenci 32x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Lazy 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Lemon 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Leowook</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">lil default edit</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Luvres 32x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Lunar Client 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Luvplaste 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Magma 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Miami Private</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Midnight 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Modified 1.19</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Nebula 32x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">NicoFruit 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Novis 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Orchid 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Platinum 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Prism 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Purpled 3k</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">RasplinVanilla</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">RasplinRevamped</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Resent 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Ricefault 32x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">RKYfault 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Rosamie 32x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Rubellite Red 64x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Sabor 32x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Skyline 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Soups Kids 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title fit-container">Simply 32x (Bombies 200k)</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title fit-container">Simply (Bombies 200k)</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title fit-container">Sanman Murasaki 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Shy Guy 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Sunset Default</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Swiss 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title fit-again">Tightfault Revamped</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Tron 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title fit-container">Toxica 16x specular edit</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title" style="font-size: 18px;">Trycs 600k (ReFault)</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Venom 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Vortexian 8k</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Wallifault 16x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Woodyfault 32x</h1>
+        </div> <!--end-->
+        <div class="pack-tile">
+          <input type="image" class="pack-icon" src="https://via.placeholder.com/128" alt="icon" loading="lazy" onClick="placeholderfunc();"/>
+          <h1 class="pack-title">Wubefault 16x</h1>
+        </div> 
+	      
 	<script type="text/javascript">
 		if (document.location.href.startsWith("file:")) {
 			alert("You cannot 'open' this file in your browser, the code doesn't work. Upload this folder to your HTTP(s) server and access it via the internet to launch the stable-download game. This is not a bug, please read the documentation.");
